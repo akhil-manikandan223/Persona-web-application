@@ -4529,11 +4529,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AkhilManikandan\\source\\repos\\EduSphere\\EduBrain\\EduBrain.csproj",
+      "projectUniqueName": "C:\\Users\\AkhilManikandan\\source\\repos\\Persona-web-application\\EduBrain\\EduBrain.csproj",
       "projectName": "EduBrain",
-      "projectPath": "C:\\Users\\AkhilManikandan\\source\\repos\\EduSphere\\EduBrain\\EduBrain.csproj",
+      "projectPath": "C:\\Users\\AkhilManikandan\\source\\repos\\Persona-web-application\\EduBrain\\EduBrain.csproj",
       "packagesPath": "C:\\Users\\AkhilManikandan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AkhilManikandan\\source\\repos\\EduSphere\\EduBrain\\obj\\",
+      "outputPath": "C:\\Users\\AkhilManikandan\\source\\repos\\Persona-web-application\\EduBrain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
