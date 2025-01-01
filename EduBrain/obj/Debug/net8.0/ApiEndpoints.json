@@ -1,0 +1,813 @@
+[
+  {
+    "ContainingType": "EduBrain.Controllers.ClubController",
+    "Method": "AddClub",
+    "RelativePath": "api/Club/addclubs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clubDetails",
+        "Type": "EduBrain.Models.Clubs.Club",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.ClubController",
+    "Method": "RemoveClub",
+    "RelativePath": "api/Club/deleteclub/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.ClubController",
+    "Method": "ShowAllClubs",
+    "RelativePath": "api/Club/getallclubs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.ClubController",
+    "Method": "GetClubById",
+    "RelativePath": "api/Club/getclubbyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.ClubController",
+    "Method": "UpdateClub",
+    "RelativePath": "api/Club/updateclub/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "clubDetails",
+        "Type": "EduBrain.Models.Clubs.Club",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.DepartmentController",
+    "Method": "AddDepartment",
+    "RelativePath": "api/Department/adddepartments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentDetails",
+        "Type": "EduBrain.Models.Departments.Department",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.DepartmentController",
+    "Method": "RemoveDepartment",
+    "RelativePath": "api/Department/deletedepartment/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.DepartmentController",
+    "Method": "ShowAllDepartments",
+    "RelativePath": "api/Department/getalldepartments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.DepartmentController",
+    "Method": "GetDepartmentById",
+    "RelativePath": "api/Department/getdepartmentbyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.DepartmentController",
+    "Method": "UpdateDepartment",
+    "RelativePath": "api/Department/updatedepartment/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "departmentDetails",
+        "Type": "EduBrain.Models.Departments.Department",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.EmployeeController",
+    "Method": "AddEmployee",
+    "RelativePath": "api/Employee/addemployee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeDto",
+        "Type": "EduBrain.Controllers.EmployeeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.EmployeeController",
+    "Method": "RemoveEmployee",
+    "RelativePath": "api/Employee/deleteemployee/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.EmployeeController",
+    "Method": "GetAllEmployees",
+    "RelativePath": "api/Employee/getallemployees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.EmployeeController",
+    "Method": "GetEmployeeById",
+    "RelativePath": "api/Employee/getemployeebyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.EmployeeController",
+    "Method": "UpdateEmployee",
+    "RelativePath": "api/Employee/updateemployee/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "employeeDto",
+        "Type": "EduBrain.Controllers.EmployeeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.EmployeeCategoryController",
+    "Method": "AddEmployeeCategory",
+    "RelativePath": "api/EmployeeCategory/addemployeecategories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employeeCategoryDetails",
+        "Type": "EduBrain.Models.EmployeeCategories.EmployeeCategory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.EmployeeCategoryController",
+    "Method": "RemoveEmployeeCategory",
+    "RelativePath": "api/EmployeeCategory/deleteemployeecategory/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.EmployeeCategoryController",
+    "Method": "ShowAllEmployeeCategories",
+    "RelativePath": "api/EmployeeCategory/getallemployeecategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.EmployeeCategoryController",
+    "Method": "GetEmployeeCategoryById",
+    "RelativePath": "api/EmployeeCategory/getemployeecategorybyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.EmployeeCategoryController",
+    "Method": "UpdateEmployeeCategory",
+    "RelativePath": "api/EmployeeCategory/updateemployeecategory/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "employeeCategoryDetails",
+        "Type": "EduBrain.Models.EmployeeCategories.EmployeeCategory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.LocationController",
+    "Method": "AddLocation",
+    "RelativePath": "api/Location/addlocations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "locationDetails",
+        "Type": "EduBrain.Models.Locations.Location",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.LocationController",
+    "Method": "RemoveLocation",
+    "RelativePath": "api/Location/deletelocation/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.LocationController",
+    "Method": "ShowAllLocations",
+    "RelativePath": "api/Location/getalllocations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.LocationController",
+    "Method": "GetLocationById",
+    "RelativePath": "api/Location/getlocationbyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.LocationController",
+    "Method": "UpdateLocation",
+    "RelativePath": "api/Location/updatelocation/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "locationDetails",
+        "Type": "EduBrain.Models.Locations.Location",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.StateController",
+    "Method": "AddState",
+    "RelativePath": "api/State/addstates",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stateDetails",
+        "Type": "EduBrain.Models.States.State",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.StateController",
+    "Method": "RemoveState",
+    "RelativePath": "api/State/deletestate/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.StateController",
+    "Method": "ShowAllStates",
+    "RelativePath": "api/State/getallstates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.StateController",
+    "Method": "GetStateById",
+    "RelativePath": "api/State/getstatebyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.StateController",
+    "Method": "UpdateState",
+    "RelativePath": "api/State/updatestate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "stateDetails",
+        "Type": "EduBrain.Models.States.State",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.StudentController",
+    "Method": "AddStudent",
+    "RelativePath": "api/Student/addstudent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentDto",
+        "Type": "EduBrain.Controllers.StudentController\u002BStudentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.StudentController",
+    "Method": "RemoveStudent",
+    "RelativePath": "api/Student/deletestudent/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.StudentController",
+    "Method": "GetAllStudents",
+    "RelativePath": "api/Student/getallstudents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.StudentController",
+    "Method": "GetStudentById",
+    "RelativePath": "api/Student/getstudentbyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.StudentController",
+    "Method": "UpdateStudent",
+    "RelativePath": "api/Student/updatestudent/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "studentDto",
+        "Type": "EduBrain.Controllers.StudentController\u002BStudentDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.SubjectController",
+    "Method": "AddSubject",
+    "RelativePath": "api/Subject/addsubjects",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "subjectDetails",
+        "Type": "EduBrain.Models.Subjects.Subject",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.SubjectController",
+    "Method": "RemoveSubject",
+    "RelativePath": "api/Subject/deletesubject/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.SubjectController",
+    "Method": "ShowAllSubjects",
+    "RelativePath": "api/Subject/getallsubjects",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.SubjectController",
+    "Method": "GetSubjectById",
+    "RelativePath": "api/Subject/getsubjectbyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.SubjectController",
+    "Method": "UpdateSubject",
+    "RelativePath": "api/Subject/updatesubject/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "subjectDetails",
+        "Type": "EduBrain.Models.Subjects.Subject",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.TeacherController",
+    "Method": "AddTeacher",
+    "RelativePath": "api/Teacher/addteacher",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "teacherDto",
+        "Type": "EduBrain.Controllers.TeacherDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.TeacherController",
+    "Method": "RemoveTeacher",
+    "RelativePath": "api/Teacher/deleteteacher/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.TeacherController",
+    "Method": "GetAllTeachers",
+    "RelativePath": "api/Teacher/getallteachers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.TeacherController",
+    "Method": "GetTeacherById",
+    "RelativePath": "api/Teacher/getteacherbyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.TeacherController",
+    "Method": "UpdateTeacher",
+    "RelativePath": "api/Teacher/updateteacher/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "teacherDto",
+        "Type": "EduBrain.Controllers.TeacherDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.VehicleController",
+    "Method": "AddVehicle",
+    "RelativePath": "api/Vehicle/addvehicles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vehicleDetails",
+        "Type": "EduBrain.Models.Vehicles.Vehicle",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.VehicleController",
+    "Method": "RemoveVehicle",
+    "RelativePath": "api/Vehicle/deletevehicle/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.VehicleController",
+    "Method": "ShowAllVehicles",
+    "RelativePath": "api/Vehicle/getallvehicles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.VehicleController",
+    "Method": "GetVehicleById",
+    "RelativePath": "api/Vehicle/getvehiclebyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.VehicleController",
+    "Method": "UpdateVehicle",
+    "RelativePath": "api/Vehicle/updatevehicle/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "vehicleDetails",
+        "Type": "EduBrain.Models.Vehicles.Vehicle",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EduBrain.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[EduBrain.WeatherForecast, EduBrain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
